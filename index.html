@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Dice Roller</h1>
+        <p style="color: rgb(168, 165, 165);">Hot Keys: 1, 2, 4, 6</p>
+        <p># of dice:</p>
+        <input id="numDice" type="number" value="1" min="1">
+        <button class="roller" onclick="rollDice()" id="dicebtn">Roll Dice</button>
+        <button class="reset" onclick="resetDice()" id="resetbtn">Reset</button>
+        <div id="diceResult" style="margin-top: 10px;"></div>
+        <div id="resultSum" style="margin-top: 10px;"></div>
+        <div id="diceImages"></div>
+    </div>
+    <h1 id="myH1"></h1>
+    <script src="diceRoller.js"></script>
+</body>
+</html>
